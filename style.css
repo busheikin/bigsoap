@@ -337,6 +337,10 @@ a {
   padding-left: 0;
 }
 
+.link-list .link:hover {
+  filter: blur(4px);
+}
+
 .link-list > li {
   margin-bottom: 1rem;
 }
