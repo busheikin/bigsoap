@@ -319,6 +319,10 @@ a {
   letter-spacing: 1px;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .margin-bottom {
   padding-bottom: 1rem;
 }
@@ -328,9 +332,12 @@ a {
   padding-top: 1rem;
 }
 
-.link {
-  display: block;
-  text-align: center;
+.link-list {
+  list-style: none;
+}
+
+.link-list > li {
+  margin-bottom: 1rem;
 }
 
 .link.text-spaced {
@@ -342,21 +349,6 @@ a {
   font-style: normal;
   font-weight: 400;
   text-decoration: none;
-}
-
-.link-2 {
-  display: block;
-  text-align: center;
-}
-
-.link-3 {
-  display: block;
-  text-align: center;
-}
-
-.link-4 {
-  display: block;
-  text-align: center;
 }
 
 .giant-container {
